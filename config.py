@@ -8,14 +8,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("28636367"))
+API_HASH = getenv("3aa68fe84a80d43d44183599593378a6")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("7229242538:AAGHyYwKLpvgEfmDeQ2Pro4sdJw_Wd5dJeY")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI")
+MONGO_DB_URI = getenv("mongodb+srv://n4:n4@clustern4.g6fd3.mongodb.net/?retryWrites=true&w=majority&appName=Clustern4")
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE")
 
@@ -31,7 +31,7 @@ OWNER_ID = int(getenv("5567910560"))
 # Your heroku app name
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+HEROKU_API_KEY = getenv("HRKU-534a7608-3993-40a2-beb1-413b054c127")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
